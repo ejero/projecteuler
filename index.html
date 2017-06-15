@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rosita's Project Euler Solutions</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div class="topnav">
+      <img src="img/pe.jpg" alt="Project Euler Logo">
+    </div>
+
+    <div class="content">
+    <h2>Multiples of 3 and 5</h2>
+    <p class="info">Problem 1</p>
+    <p class="paragraph">If we list all the natural numbers below 10 that are multiples of 3 or 5,
+      we get 3, 5, 6 and 9. The sum of these multiples is 23.<br><br>
+       Find the sum of all the multiples of 3 or 5 below 1000.
+    </p>
+    <div>
+      <p><strong>Answer:<strong></p>
+      <script>
+      var myNum = 0;
+    for ( var i = 1 ; i < 1000 ; i++ ) {
+        if(i % 3 === 0 || i % 5 === 0 ) {
+          myNum += i;
+        }
+    } document.write(myNum);
+      </script>
+    </body>
+</html>

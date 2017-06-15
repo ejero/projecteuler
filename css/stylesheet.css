@@ -1,0 +1,39 @@
+
+body {
+  background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  float: left;
+  display: block;
+  padding: 12px 12px;
+  text-decoration: none;
+  margin-top: -90px;
+}
+
+.content{
+
+  overflow: hidden;
+  float: left;
+  display: block;
+  padding: 10px 0px;
+  text-decoration: none;
+  margin-top: -90px;
+}
+
+h2{
+  color:#5b4532;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+
+.info{
+  color:#939393;
+  font-family: verdana;
+}
+.paragraph{
+    border-style: outset;
+    border-spacing: 100px;
+    padding: 40px;
+}
